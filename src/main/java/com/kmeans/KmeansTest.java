@@ -1,4 +1,4 @@
-package com.kmeans;
+package main.java.com.kmeans;
 
 public class KmeansTest {
 	public static void main(String[] args) {

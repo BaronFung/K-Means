@@ -4,7 +4,6 @@
   <artifactId>kmeans</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
         <directory>src</directory>
@@ -22,6 +21,26 @@
           <target>1.6</target>
         </configuration>
       </plugin>
+      <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-surefire-plugin</artifactId>
+         <version>2.8</version>
+         <configuration>
+              <includes>
+                  <!-- 包含所有后缀为Test.java的类 -->
+                  <include>**/*Test.java</include>
+              </includes>
+         </configuration>
+      </plugin>
     </plugins>
-  </build>
+    </build>
+    <dependencies>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.10</version>
+          <scope>test</scope>
+      </dependency>
+    </dependencies>
+    
 </project>

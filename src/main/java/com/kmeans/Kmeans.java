@@ -1,4 +1,4 @@
-package com.kmeans;
+package main.java.com.kmeans;
 
 import java.util.Arrays;
 import java.util.Collections;
