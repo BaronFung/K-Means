@@ -220,14 +220,14 @@ public class Kmeans {
         rvInfo.attempts = attempts;
         rvInfo.criteriaBreakCondition = criteriaBreakCondition;
         if (param.isDisplay) {
-            System.out.println("k=" + k);
-            System.out.println("attempts=" + attempts);
-            System.out.println("criteriaBreakCondition=" + criteriaBreakCondition);
-            System.out.println("The number of each classes are: ");
-            for (int i = 0; i < k; i++) {
-                System.out.print(centerCounts[i] + " ");
-            }
-            System.out.print("\n\n");
+//            System.out.println("k=" + k);
+//            System.out.println("attempts=" + attempts);
+//            System.out.println("criteriaBreakCondition=" + criteriaBreakCondition);
+//            System.out.println("The number of each classes are: ");
+//            for (int i = 0; i < k; i++) {
+//                System.out.print(centerCounts[i] + " ");
+//            }
+//            System.out.print("\n\n");
         }
         return rvInfo;
     }
