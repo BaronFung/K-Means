@@ -8,7 +8,7 @@ import main.java.com.kmeans.Kmeans;
 import main.java.com.kmeans.Kmeans_data;
 import main.java.com.kmeans.Kmeans_param;
 
-public class KMeanstest {
+public class KMeansTest {
      @Test
      public void test(){
     	 double[][] points = { { 0, 0 }, { 4, 10 }, { 1, 1 }, { 5, 8 } }; // 测试数据，四个二维的点
